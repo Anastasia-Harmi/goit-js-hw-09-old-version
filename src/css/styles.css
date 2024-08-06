@@ -4,8 +4,6 @@
   | default @import url()
   |============================
 */
-@import url('./reset.css');
-@import url('./vite-promo.css');
 
 :root {
   font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
@@ -86,4 +84,10 @@ body {
 .gallery-image {
   width: 360px;
   height: 200px;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
 }
