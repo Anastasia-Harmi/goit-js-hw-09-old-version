@@ -5,6 +5,7 @@ import FullReload from 'vite-plugin-full-reload';
 
 export default defineConfig(({ command }) => {
   return {
+    base: '/your-repo-name/', // Додаємо базовий шлях
     define: {
       [command === 'serve' ? 'global' : '_global']: {},
     },
